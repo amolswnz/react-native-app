@@ -1,0 +1,17 @@
+Component
+  <Button onPress={this.onButtonPress.bind(this)}>Save</Button>
+
+  onButtonPress() {
+    const { name, phone, shift } = this.props;
+
+    this.props.employeeCreate({ name, phone, shift });
+  }
+
+  export default connect(mapStateToProps, { employeeCreate })(EmployeeCreateForm);
+
+Action
+  export const employeeCreate({ name, phone, shift }) => {
+
+  }
+
+Reducer
