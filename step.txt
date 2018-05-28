@@ -15,3 +15,6 @@ Action
   }
 
 Reducer
+
+
+`i` before `e` except before `c`
