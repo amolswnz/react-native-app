@@ -18,4 +18,4 @@
 * redux-thunk
 
 ### Screenshots
-(https://raw.githubusercontent.com/amolsw.nz/react-native-app/emp-manager.gif)
+![Screenshot](https://raw.githubusercontent.com/amolsw.nz/react-native-app/emp-manager.gif)
