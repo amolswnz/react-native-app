@@ -7,3 +7,4 @@ export const LOGIN_USER = 'login user spinner loading';
 export const EMPLOYEE_UPDATE = 'add update employee';
 export const EMPLOYEE_CREATE = 'employee created';
 export const EMPLOYEES_FETCH_SUCCESS = 'employees data fetch data';
+export const EMPLOYEE_SAVE_SUCCESS = 'employees data saved';

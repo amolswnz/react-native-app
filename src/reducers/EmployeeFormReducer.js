@@ -1,6 +1,7 @@
 import {
   EMPLOYEE_UPDATE,
-  EMPLOYEE_CREATE
+  EMPLOYEE_CREATE,
+  EMPLOYEE_SAVE_SUCCESS
 } from '../actions/types';
 
 const INIT_STATE = {
@@ -19,6 +20,8 @@ export default (state = INIT_STATE, action) => {
       // const newObj[action.payload.prop] =  action.payload.value;
       // return { ...state, newObj };
     case EMPLOYEE_CREATE:
+      return INIT_STATE;
+    case EMPLOYEE_SAVE_SUCCESS:
       return INIT_STATE;
     default:
       return state;
