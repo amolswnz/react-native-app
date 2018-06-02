@@ -1,9 +1,6 @@
 # React Native App - Employee Manager
   Employee Management App
 
-#### Live Demo
-http://45.76.122.69/
-
 ### Project detail
 * Add / Edit / Update / Delete Employees
 * User Registration
@@ -19,3 +16,5 @@ http://45.76.122.69/
 * react-redux
 * redux
 * redux-thunk
+
+### Screenshots
